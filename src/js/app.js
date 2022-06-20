@@ -9,7 +9,7 @@ btnUnlock.onclick = function passwordChecker(){
 
 
     if (valueInputPassword == correctPassword) {
- window.location.href = "second.html";
+console.log("goed gedaan, u hebt het juist")
     } else if (valueInputPassword == "") {
         faultPassword.innerHTML = "geef een antwoord in!"
     } else {
